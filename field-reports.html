@@ -278,6 +278,26 @@ ul.bul li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height
 
   <section class="band" style="padding-top:0">
     <div class="wrap">
+      
+            <!-- ===== NOVEMBER 2026 ===== -->
+      <div class="month rv"><h2>November 2026</h2></div>
+        <article class="story rv" id="usb-wifi-adapter">
+          <button class="shot" type="button" aria-label="Enlarge photo"><img src="images/usb-wifi-adapter.jpg" alt="Windows Network Connections window showing the laptop's old built-in Wi-Fi disabled and the new Realtek 8851BU USB adapter connected" loading="lazy"></button>
+          <div class="txt">
+            <p class="label">Report 07 &middot; Wi-Fi</p>
+            <h3>Setting up a USB Wi-Fi 6 adapter on a 15-year-old laptop</h3>
+            <p class="meta">Nov 2026 &middot; Surrey Public Library</p>
+            <p style="margin-top:14px"><strong style="color:#fff">The problem.</strong> A visitor brought in a Lenovo IdeaPad Y560p from around 2010 and a new Fenvi USB Wi-Fi 6 adapter. The packaging was only in Chinese, and they didn't know how to use it. They also needed Bluetooth.</p>
+            <div class="steps">
+              <div class="step"><span class="pill ok">Step</span><div><b>1. Read the packaging</b><span class="d">Translated the label: a driver-free adapter that installs itself on Windows. Its warning about low-power front USB ports applies to desktops, not laptops.</span></div></div>
+              <div class="step"><span class="pill ok">Step</span><div><b>2. Identify the adapters</b><span class="d">After plugging it in, Network Connections showed two Wi-Fi adapters: the new Realtek 8851BU (the adapter's Wi-Fi 6 chip) and the old built-in Qualcomm Atheros AR9285.</span></div></div>
+              <div class="step"><span class="pill fault">Fixed</span><div><b>3. Switch to the new adapter</b><span class="d">Disabled the old built-in card so Windows would only use the new one, then connected it to the library's public Wi-Fi to test it.</span></div></div>
+              <div class="step"><span class="pill ok">Checked</span><div><b>4. Bluetooth</b><span class="d">Confirmed the laptop's built-in Bluetooth adapter was present and separate from the Wi-Fi card, and showed the visitor how to pair a phone and send a file to prove it works.</span></div></div>
+            </div>
+            <p style="margin-top:14px"><strong style="color:#fff">The result.</strong> The laptop was back online through the new adapter. I explained that the adapter needs to stay plugged in, how to join their home network, and not to eject it from the USB menu near the clock.</p>
+            <ul class="chips"><li>Network adapters</li><li>Windows networking</li><li>Bluetooth</li><li>Reading hardware documentation</li><li>Explaining options to non-technical users</li></ul>
+          </div>
+        </article>
 
       <!-- ===== OCTOBER 2026 ===== -->
       <div class="month rv"><h2>October 2026</h2></div>
@@ -343,6 +363,7 @@ ul.bul li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height
         4. Change the report number, title, date, problem, steps and result. Keep the step pills:
            class "ok" = white pill (Tried / Step / Ruled out), class "fault" = red pill (Root cause / Fixed).
       -->
+      
 
       <div style="margin-top:12px"><a class="btn line" href="index.html#reports">&larr; Back to portfolio</a></div>
     </div>
